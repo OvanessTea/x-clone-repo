@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Navbar } from "./Navbar";
 
 export function Header() {
     return <header className="borber-b border-white/10 px-6 py-4 flex
@@ -17,10 +18,6 @@ export function Header() {
             />
         </Link> 
 
-        <nav className="flex gap-6 text-white/80">
-            <Link href="/">Home</Link>
-            <Link href="/">Explore</Link>
-            <Link href="/">Profile</Link>
-        </nav>
+        <Navbar/>
     </header>
 }
