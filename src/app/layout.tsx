@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "X App",
+  title: {template: "%s - X App", default: 'X - App'},
   description: "Front-end insights, styled like X.com",
 };
 
