@@ -1,3 +1,6 @@
+import { Suspense } from "react";
+import { Explore } from "./Explore";
+
 export default function ExplorePage() {
-    return <div>Explore Page</div>
+    return <Suspense><Explore/></Suspense>
 }
